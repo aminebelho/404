@@ -31,7 +31,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    top: 129px;  
+    top: 40%; 
     width: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -81,10 +81,14 @@ p {font-family: 'PT Mono', monospace;
 /*Media queries*/
 @media (max-width: 1050px){
 .sec {width: 300px;}
-.first {    width: 412px;   
+.first {    
+    width: 412px;   
     height: 318px;
 }
-.flexcontainer{    margin-top: 91px;justify-content: space-around}
+.flexcontainer{
+    top: 143px;
+    margin-top: 91px;
+    justify-content: space-around}
 }
 @media (max-width:768px){
     .sec {
