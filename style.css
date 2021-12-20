@@ -31,7 +31,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    top: 40%;    
+    top: 129px;  
     width: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
